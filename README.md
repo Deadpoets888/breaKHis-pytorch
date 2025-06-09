@@ -25,6 +25,7 @@ Magnification Levels: 40X, 100X, 200X, 400X
 
 ✅ EfficientNet-B0 model finetuned on histopathology images
 
+
 📊 Current Progress
 
  Metadata extraction
