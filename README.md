@@ -6,20 +6,31 @@ This project implements a deep learning pipeline to classify breast cancer histo
 Source: https://www.kaggle.com/datasets/ambarish/breakhis/data
 
 Classes:
+
 Benign: adenosis, fibroadenoma, phyllodes tumor, tubular adenoma
+
 Malignant: ductal carcinoma, lobular carcinoma, mucinous carcinoma, papillary carcinoma
 
 Magnification Levels: 40X, 100X, 200X, 400X
 
 📌 Key Features
+
 ✅ Metadata extraction with subtype, patient ID, and magnification
+
 ✅ Patient-wise train/val/test split to prevent data leakage
+
 ✅ Data augmentation applied only to training set
+
 ✅ Image preprocessing: Resize → ToTensor → Normalize (ImageNet stats)
+
 ✅ EfficientNet-B0 model finetuned on histopathology images
 
 📊 Current Progress
+
  Metadata extraction
+ 
  Dataset splitting (stratified by patient ID)
+ 
  Custom PyTorch Dataset class
+ 
  Data augmentation for training
